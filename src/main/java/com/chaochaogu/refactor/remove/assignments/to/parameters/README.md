@@ -1,4 +1,6 @@
 #移除对参数的赋值动作
+你的代码对一个参数进行赋值动作。
+以一个临时变量取代该参数的位置。
 ```$xslt
 int discount (int inputVal, int quantity, int yearToDate) {
        if (inputVal > 50) inputVal -= 2;
